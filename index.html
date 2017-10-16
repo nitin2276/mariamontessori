@@ -983,7 +983,11 @@
   <button type="submit">Send</button>
 </form>
 -->            
-              <form action="formaction" method="POST">
+              <form action="https://formspree.io/info@mariamontessori.co.uk" method="POST">
+                <input type="hidden" name="_subject" value="Message from home page" />
+                <input type="hidden" name="_format" value="plain" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_next" value="acknowledge.html" />
                 <div class="form-group">
                   <i class="fa fa-user"></i>
                   <input name="name" type="text" class="form-control border-color-1" id="homeFormName" placeholder="Name">
@@ -1002,12 +1006,6 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Send Message</button>
               </form>
-              <!--
-              <script>
-                var contactform =  document.getElementById('formaction');
-                contactform.setAttribute('action', 'https:' + '//formspree.io/' + 'info' + '@' + 'mariamontessori' + '.' + 'co' + '.' + 'uk');
-              </script>
-              -->
             </div>
           </div>
         </div>
