@@ -107,8 +107,8 @@
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Our School<i class="fa fa-chevron-right" aria-hidden="true"></i>
                     </a>
                     <ul class="dropdown-menu">
-                      <li class=" "><a href="about_mmns_beaufort.html">Beaufort Road</a></li>
-                      <li class=" "><a href="about_mmns_hale.html">Hale Gardens</a></li>
+                      <li class=" "><a href="about_us_br.html">Beaufort Road</a></li>
+                      <li class=" "><a href="about_us_hg.html">Hale Gardens</a></li>
                     </ul>
                   </li>
                   <li class=" "><a href="about_us.html">Montessori Philosophy</a></li>
@@ -140,7 +140,7 @@
                 </ul>
               </li>
               <li class="dropdown singleDrop color-6 active ">
-                <a href="index.html" class="active" role="button" aria-haspopup="true" aria-expanded="false">
+                <a href="contact-us.html" class="active" role="button" aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-comments bg-color-6" aria-hidden="true"></i> <span class="active">Contact Us</span>
                 </a>
               </li>
@@ -209,43 +209,52 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="mapArea areaPadding">
-              <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.524423316183!2d-0.2928783838744399!3d51.521940479637486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487612044ddb69d5%3A0x8a8adc8e7f184b03!2sMaria+Montessori+Nursery+School!5e0!3m2!1sen!2suk!4v1507931729153" width="1140" height="500" frameborder="1" style="border:0" allowfullscreen></iframe></div>
+              <div id="map"><iframe src="https://www.google.com/maps/d/embed?mid=1gPsqNIR__1GJdjN_EgbLwfRPTUc&hl=en" width="1000" height="480"></iframe></div>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12">
             <div class="homeContactContent">
-              <form action="#" method="POST" role="form">
+              <form action="https://formspree.io/info@mariamontessori.co.uk" method="POST">
                 <div class="row">
+                  <input type="hidden" name="_subject" value="Enquiry from Website (Contact Us Page)" />
+                  <input type="hidden" name="_format" value="plain" />
+                  <input type="text" name="_gotcha" style="display:none" />
+                  <input type="hidden" name="_next" value="https://nitin2276.github.io/mariamontessori/acknowledge.html" />
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-user"></i>
-                      <input type="text" class="form-control border-color-1" id="exampleInputEmail1" placeholder="First name">
+                      <input name="name" type="text" class="form-control border-color-1" id="contactName" placeholder="Name" required>
                     </div>
                   </div>
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-envelope" aria-hidden="true"></i>
-                      <input type="text" class="form-control border-color-2" id="exampleInputEmail2" placeholder="Email address">
+                      <input name="_replyto" type="email" class="form-control border-color-2" id="contactEmail" placeholder="Email address" required>
                     </div>
                   </div>
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-phone" aria-hidden="true"></i>
-                      <input type="text" class="form-control border-color-5" id="exampleInputEmail3" placeholder="Phone">
+                      <input name="phone" type="text" class="form-control border-color-5" id="contactPhone" placeholder="Phone"  required>
                     </div>
                   </div>
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
-                      <i class="fa fa-book" aria-hidden="true"></i>
-                      <input type="text" class="form-control border-color-6" id="exampleInputEmail4" placeholder="Subject">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                      <select name="location" class="form-control border-color-6" id="contactLocation" required>
+                        <option value="">Location</option>
+                        <option value="Any">Any Location</option>
+                        <option value="Beaufort Road">Beaufort Road</option>
+                        <option value="Hale Gardens">Hale Gardens</option>
+                      </select>
                     </div>
                   </div>
                   <div class="col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-comments" aria-hidden="true"></i>
-                      <textarea class="form-control border-color-4" placeholder="Write message"></textarea>
+                      <textarea name="message" class="form-control border-color-4" placeholder="Write message" required></textarea>
                     </div>
                   </div>
                   <div class="col-xs-12">
@@ -316,22 +325,22 @@
           <div class="footerInfo">
             <ul class="list-unstyled footerList">
               <li>
-                <a href="about-us.html">
+                <a href="#">
                 <i class="fa fa-angle-double-right" aria-hidden="true"></i>About Us
                 </a>
               </li>
               <li>
-                <a href="about_us.html">
+                <a href="#">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Download Registration Form
                 </a>
               </li>
               <li>
-                <a href="index-v2.html">
+                <a href="#">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Contact Us
                 </a>
               </li>
               <li>
-                <a href="photo-gallery.html">
+                <a href="#">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Photo Gallery
                 </a>
               </li>
