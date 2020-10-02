@@ -3304,6 +3304,31 @@ footer {
     -o-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2); }
 
+.stickerBig {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 125px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .sticker:hover {
+    -webkit-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2); }
+
 .thumbnailContent.alt {
   box-shadow: none; }
   .thumbnailContent.alt > .caption {
@@ -5971,6 +5996,55 @@ footer {
       text-transform: capitalize;
       color: rgba(255, 255, 255, 0.8); }
 
+.testimonialContentBig {
+  width: 100%;
+  height: 500px;
+  display: block;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 35px;
+  margin-bottom: 80px; }
+  .testimonialContent span.userSign {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background-color: #ffffff;
+    border-width: 6px;
+    border-style: solid;
+    top: -50px;
+    font-size: 30px;
+    line-height: 90px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px; }
+  .testimonialContent p {
+    color: #ffffff;
+    margin: 25px 0;
+    font-size: 16px; }
+  .testimonialContent h3 {
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+    font-size: 16px;
+    line-height: 30px; }
+    .testimonialContent h3 small {
+      margin: 0;
+      font-size: 14px;
+      text-transform: capitalize;
+      color: rgba(255, 255, 255, 0.8); }
 /*================= 11 CART PAGE ==================*/
 .cartInfo .table-responsive .table {
   border-collapse: separate; }
