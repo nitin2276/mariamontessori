@@ -3304,6 +3304,31 @@ footer {
     -o-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2); }
 
+.stickerBig {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 125px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .sticker:hover {
+    -webkit-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2); }
+
 .thumbnailContent.alt {
   box-shadow: none; }
   .thumbnailContent.alt > .caption {
